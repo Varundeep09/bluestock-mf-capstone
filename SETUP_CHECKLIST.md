@@ -8,8 +8,8 @@
 - [x] Run `python scripts/data_ingestion.py` — paste/share the output
 - [x] Run `python scripts/live_nav_fetch.py`
 - [x] Run `python scripts/validate_fund_codes.py`
-- [ ] `git init`, `git add .`, `git commit -m "Day 1: Data ingestion complete"`
-- [ ] Create the GitHub repo and push
+- [x] `git init`, `git add .`, `git commit -m "Day 1: Data ingestion complete"`
+- [x] Create the GitHub repo and push
 
 ## Once data_ingestion.py output is reviewed
 - [ ] Confirm real column names against `sql/schema.sql` — adjust if needed
