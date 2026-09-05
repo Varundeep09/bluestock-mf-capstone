@@ -1,0 +1,24 @@
+# Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Database (keep schema.sql instead, DB file can be large)
+db/*.db
+*.db
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Power BI cache (keep the .pbix itself)
+*.pbix.lock
+
+# Large exported outputs you don't want tracked (uncomment if needed)
+# reports/*.pdf
