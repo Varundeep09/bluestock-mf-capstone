@@ -20,8 +20,8 @@
 
 ## Then, per the workspace due dates
 - [x] Sep 5 — Data cleaning + SQL DB design complete
-- [ ] Sep 6 — Day 1 ETL fully committed
-- [ ] Sep 8 — Fund performance analytics (CAGR, Sharpe, Sortino, Alpha, Beta, Max DD)
+- [x] Sep 6 — Day 1 ETL fully committed
+- [x] Sep 8 — Fund performance analytics (CAGR, Sharpe, Sortino, Alpha, Beta, Max DD)
 - [ ] Sep 10 — EDA (15+ charts) and Power BI dashboard (4 pages)
 - [ ] Sep 13 — Advanced analytics (VaR/CVaR, rolling Sharpe, cohorts, recommender, HHI)
 - [ ] Sep 15 — Rubric self-check against all 7 deliverables
