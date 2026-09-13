@@ -10,7 +10,9 @@ import sqlite3
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DB_PATH = PROJECT_ROOT / "db" / "bluestock_mf.db"
+DB_PATH = PROJECT_ROOT / "data" / "db" / "bluestock_mf.db"
+if not DB_PATH.exists() and (PROJECT_ROOT / "db" / "bluestock_mf.db").exists():
+    DB_PATH = PROJECT_ROOT / "db" / "bluestock_mf.db"
 SCORECARD_PATH = PROJECT_ROOT / "data" / "processed" / "fund_scorecard.csv"
 
 # Risk mapping from user appetite to database risk profiles and asset categories

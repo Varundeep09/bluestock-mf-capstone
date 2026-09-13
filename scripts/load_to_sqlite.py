@@ -14,7 +14,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DB_DIR = PROJECT_ROOT / "db"
+DB_DIR = PROJECT_ROOT / "data" / "db"
 DB_PATH = DB_DIR / "bluestock_mf.db"
 SCHEMA_PATH = PROJECT_ROOT / "sql" / "schema.sql"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"

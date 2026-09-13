@@ -20,7 +20,9 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DB_PATH = PROJECT_ROOT / "db" / "bluestock_mf.db"
+DB_PATH = PROJECT_ROOT / "data" / "db" / "bluestock_mf.db"
+if not DB_PATH.exists() and (PROJECT_ROOT / "db" / "bluestock_mf.db").exists():
+    DB_PATH = PROJECT_ROOT / "db" / "bluestock_mf.db"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 

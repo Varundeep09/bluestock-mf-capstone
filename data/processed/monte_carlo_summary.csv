@@ -1,0 +1,4 @@
+amfi_code,scheme_name,category,initial_nav,expected_ann_return_pct,ann_volatility_pct,projected_5yr_5th_pct_nav,projected_5yr_median_nav,projected_5yr_95th_pct_nav,5yr_median_gain_pct
+120843,Kotak Flexicap Fund,Equity (Flexi Cap),163.24,25.99,15.86,300.91,551.38,988.67,237.77
+100025,HDFC Short Term Debt Fund,Debt (Short Term),31.88,4.21,3.9,33.98,39.29,45.77,23.22
+119120,SBI Magnum Gilt Fund,Debt/Gilt,54.2,5.52,3.97,61.59,71.11,81.57,31.19

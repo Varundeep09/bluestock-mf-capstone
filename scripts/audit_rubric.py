@@ -30,9 +30,12 @@ for s in scripts:
         print("    Error:", res.stderr[:300])
 
 print("\n" + "=" * 70)
-print("2. SQL 10-QUERY EXECUTION AUDIT (db/bluestock_mf.db)")
+print("2. SQL 10-QUERY EXECUTION AUDIT (data/db/bluestock_mf.db)")
 print("=" * 70)
-conn = sqlite3.connect(PROJECT_ROOT / "db" / "bluestock_mf.db")
+db_path = PROJECT_ROOT / "data" / "db" / "bluestock_mf.db"
+if not db_path.exists() and (PROJECT_ROOT / "db" / "bluestock_mf.db").exists():
+    db_path = PROJECT_ROOT / "db" / "bluestock_mf.db"
+conn = sqlite3.connect(db_path)
 with open(PROJECT_ROOT / "sql" / "queries.sql", "r", encoding="utf-8") as f:
     stmts = [s.strip() for s in f.read().split(";") if s.strip()]
 
@@ -74,6 +77,8 @@ print("\n" + "=" * 70)
 print("4. JUPYTER NOTEBOOKS AUDIT (notebooks/)")
 print("=" * 70)
 notebooks = [
+    "notebooks/01_data_ingestion.ipynb",
+    "notebooks/02_data_cleaning.ipynb",
     "notebooks/03_eda_analysis.ipynb",
     "notebooks/04_performance_analytics.ipynb",
     "notebooks/05_advanced_analytics.ipynb"

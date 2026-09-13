@@ -9,6 +9,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Database (keep schema.sql instead, DB file can be large)
+data/db/*.db
 db/*.db
 *.db
 
