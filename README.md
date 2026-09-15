@@ -26,6 +26,8 @@ bluestock_mf_capstone/
 │   ├── recommender.py            # Investor risk-profile fund recommendation engine
 │   ├── bonus_analytics.py        # Monte Carlo 5Y simulation & Markowitz Efficient Frontier
 │   ├── audit_rubric.py           # Automated regression test & rubric self-check suite
+│   ├── test_fresh_clone.py       # End-to-end fresh-clone sandbox verification suite
+│   ├── validate_fund_codes.py    # AMFI scheme code verification suite
 │   ├── data_ingestion.py         # Modular raw ingestion script
 │   ├── data_cleaning.py          # Modular data cleaning script
 │   ├── load_to_sqlite.py         # Modular SQLite loader script
@@ -89,6 +91,9 @@ python scripts/recommender.py
 
 # Run QA regression audit suite
 python scripts/audit_rubric.py
+
+# Run end-to-end fresh-clone verification test
+python scripts/test_fresh_clone.py
 ```
 
 ---

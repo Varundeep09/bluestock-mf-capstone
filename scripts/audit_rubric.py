@@ -22,8 +22,10 @@ scripts = [
 print("=" * 70)
 print("1. SCRIPT EXECUTION AUDIT")
 print("=" * 70)
+import sys
+
 for s in scripts:
-    res = subprocess.run([".venv/Scripts/python.exe", s], capture_output=True, text=True, cwd=PROJECT_ROOT)
+    res = subprocess.run([sys.executable, s], capture_output=True, text=True, cwd=PROJECT_ROOT)
     status = "PASS" if res.returncode == 0 else "FAIL"
     print(f"  {s:32s} : {status}")
     if res.returncode != 0:
@@ -111,7 +113,7 @@ print("6. POWER BI DASHBOARD ARTIFACTS AUDIT (dashboard/)")
 print("=" * 70)
 dash_files = [
     "dashboard/bluestock_mf.pbix",
-    "dashboard/bluestock_mf.pdf",
+    "dashboard/Dashboard.pdf",
     "dashboard/page1_industry_overview.png",
     "dashboard/page2_fund_performance.png",
     "dashboard/page3_investor_analytics.png",
