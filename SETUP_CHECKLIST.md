@@ -24,5 +24,4 @@
 - [x] Sep 8 — Fund performance analytics (CAGR, Sharpe, Sortino, Alpha, Beta, Max DD)
 - [x] Sep 10 — EDA (15+ charts) and Power BI dashboard (4 pages)
 - [x] Sep 13 — Advanced analytics (VaR/CVaR, rolling Sharpe, cohorts, recommender, HHI)
-- [x] Sep 15 — Rubric self-check against all 7 deliverables
-- [ ] Sep 16 — Final PDF report (15–20 pages) + 12-slide PPT + clean GitHub push
+- [x] Sep 16 — Final PDF report (19 pages) + 12-slide PPT + clean GitHub push
