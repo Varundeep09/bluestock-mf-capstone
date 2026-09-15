@@ -14,7 +14,7 @@
 ## Once data_ingestion.py output is reviewed
 - [x] Confirm real column names against `sql/schema.sql` — adjust if needed
 - [x] Build `02_data_cleaning.ipynb` / cleaning logic into `data/processed/`
-- [x] Load cleaned data into `db/bluestock_mf.db` via schema.sql
+- [x] Load cleaned data into `data/db/bluestock_mf.db` via schema.sql
 - [x] Run and extend `sql/queries.sql` to 10 queries
 - [x] Write `data_dictionary.md`
 

@@ -1,6 +1,6 @@
 # Data Dictionary — Bluestock Mutual Fund Analytics Star Schema
 
-This data dictionary documents all tables and fields within the SQLite analytical database (`db/bluestock_mf.db`) and processed data files (`data/processed/`).
+This data dictionary documents all tables and fields within the SQLite analytical database (`data/db/bluestock_mf.db`) and processed data files (`data/processed/`).
 
 ---
 
